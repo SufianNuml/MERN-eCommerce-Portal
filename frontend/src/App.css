@@ -1,0 +1,158 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* nav custom css */
+
+.nav-ul li{
+  list-style: none;
+  display: inline;
+  padding: 14px;
+  
+  
+}
+.nav-ul li a{
+  color:#fff;
+  padding: 5px;
+  text-decoration: none;
+
+}
+
+.nav-ul{
+  padding: 20px;
+  
+  margin: 0;
+  background-color: skyblue;
+}
+.second-nav-ul{
+ text-align: right;
+}
+.nav-img{
+  
+  position: absolute;
+  left: 10px;
+  top: -13px;
+  cursor: pointer;
+
+}
+.nav-img img{
+  width: 60px;
+  cursor: pointer;
+  
+}
+.nav-im{
+  position: absolute;
+  right: 10px;
+ top: -13px;
+ cursor: pointer;
+}
+.nav-im img{
+  width: 60px;
+  cursor: pointer;
+}
+/* /////////////////////////////////////////footer//////// */
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  text-align: center;
+  width: 100%;
+}
+/* //////////////////////////////////////////////Sing Up */
+.inputbox{
+  display: block;
+  margin: 25px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid skyblue;
+
+}
+.singup{
+  margin-left: 40%;
+}
+.singup h1{
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+.appbtn{
+  margin: 25px;
+  margin-left: 90px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  cursor: pointer;
+}
+/* ////////////////////////////////Login//////////// */
+.login{
+  margin-left: 40%;
+  margin-top: 100px;
+}
+.login h1{
+  margin-left: 100px;
+  
+}
+/* //////////////////////////Add product page */
+.add_product{
+  margin-left: 40%;
+}
+.add_product h1{
+  margin-left: 80px;
+}
+
+.invalid-name{
+  color: red;
+  margin: -20px;
+  display: block;
+  margin-left: 30px;
+}
+
+/* /////////////////////////////////////////Productlist page */
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0px;
+}
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}

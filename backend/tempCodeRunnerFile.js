@@ -1,0 +1,2 @@
+ // result=result.toOblect();
+    // del
